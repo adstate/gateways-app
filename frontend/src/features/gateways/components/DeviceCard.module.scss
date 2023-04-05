@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  gap: 18px;
+}
+
+.removeButton:hover {
+  color: red;
+}
