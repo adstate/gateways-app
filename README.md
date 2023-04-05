@@ -15,7 +15,7 @@ Migrations will be runned automaticaly before running backend.
 $ docker-compose up -d
 ```
 
-After runnig containers fronntend will be awailable on http://localhost:3000
+After runnig containers frontend will be awailable on http://localhost:3000
 
 ## Running without docker-compose
 
