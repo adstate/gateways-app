@@ -26,7 +26,7 @@ Then run for backend:
 ```bash
 $ cd ./backend
 $ yarn install
-$ yarn run start:prod
+$ yarn start:prod
 ```
 
 Then run for frontend:
