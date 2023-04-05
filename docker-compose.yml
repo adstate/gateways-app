@@ -26,5 +26,6 @@ services:
     environment:
       - MONGO_INITDB_ROOT_USERNAME=docker
       - MONGO_INITDB_ROOT_PASSWORD=mongopw
+    restart: always
     # volumes:
     #   - data:/data/db
