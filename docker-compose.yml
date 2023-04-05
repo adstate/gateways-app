@@ -15,8 +15,6 @@ services:
     build:
       context: ./backend
       target: runtime
-    ports:
-      - "4001:4000"
     environment:
       - MONGODB_URL=mongodb://docker:mongopw@mongodb:27017
     restart: always
@@ -28,7 +26,5 @@ services:
     environment:
       - MONGO_INITDB_ROOT_USERNAME=docker
       - MONGO_INITDB_ROOT_PASSWORD=mongopw
-    ports:
-      - 49152:27017
     # volumes:
     #   - data:/data/db
