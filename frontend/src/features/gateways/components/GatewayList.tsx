@@ -6,18 +6,17 @@ import {
   TableCell,
   TableBody,
   Paper,
-  Button,
   Toolbar,
   IconButton,
-  Skeleton,
 } from "@mui/material";
+import Typography from "@mui/material/Typography";
 import AddIcon from "@mui/icons-material/Add";
+import EditIcon from "@mui/icons-material/Edit";
 import { useAppDispatch, useAppSelector } from "app/hooks";
 import { useCallback, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { fetchAllGateways } from "../asyncActions";
 import styles from "./GatewayList.module.scss";
-import Typography from "@mui/material/Typography";
 
 const GatewayList: React.FC = () => {
   const dispatch = useAppDispatch();
@@ -71,6 +70,7 @@ const GatewayList: React.FC = () => {
                 key={gateway._id}
                 sx={{
                   "&:last-child td, &:last-child th": { border: 0 },
+                  "&:hover": { backgroundColor: "#f6f6f6" },
                   cursor: "pointer",
                 }}
                 data-id={gateway._id}
