@@ -4,7 +4,7 @@ App for store information about gateways and their associated devices.
 
 There is backend on NestJs in folder backend.
 Frontend is written with react and located in folder frontend.
-MongoDb is using for store information about gateways and devices.
+MongoDb is used for store information about gateways and devices.
 
 ## Running the app
 
@@ -15,7 +15,7 @@ Migrations will be runned automaticaly before running backend.
 $ docker-compose up -d
 ```
 
-After runnig containers frontend will be awailable on http://localhost:3000
+After running containers frontend will be available on http://localhost:3000
 
 ## Running without docker-compose
 
@@ -26,7 +26,7 @@ Then run for backend:
 ```bash
 $ cd ./backend
 $ yarn install
-$ yarn start:prod
+$ yarn start
 ```
 
 Then run for frontend:
