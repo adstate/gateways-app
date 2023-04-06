@@ -25,7 +25,6 @@ const FormSelectField: React.FC<Props> = ({
   } = useController({
     name,
     control,
-    rules: { required: true },
   });
 
   return (

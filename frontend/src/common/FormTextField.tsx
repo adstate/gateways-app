@@ -18,7 +18,6 @@ const FormTextField: React.FC<Props> = ({ control, name, label, ...rest }) => {
   } = useController({
     name,
     control,
-    rules: { required: true },
   });
 
   return (

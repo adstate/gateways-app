@@ -23,7 +23,6 @@ const FormNumberField: React.FC<Props> = ({
   } = useController({
     name,
     control,
-    rules: { required: true },
   });
 
   const changeHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
